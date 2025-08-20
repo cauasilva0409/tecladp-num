@@ -1,29 +1,57 @@
-
-
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR"> <!-- Define a linguagem da página -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8"> <!-- Codificação de caracteres UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibilidade com IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade -->
+
+    <title>AnimeQ</title> <!-- Título da aba -->
+
+    <!-- Importação da fonte Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <!-- Ícone da aba -->
+    <link rel="icon" type="image/png" href="img/4043233-anime-away-face-no-nobody-spirited_113254.png">
+
+    <!-- Reset de estilos e CSS principal -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-      <h1>Efeitos de som</h1>
-    <h2>Aberturas de Anime</h2>
+
+    <!-- Título principal -->
+    <h1>Aberturas de animes</h1>
+
+    <!-- Container das teclas -->
     <section class="teclado">
-        <button class="tecla tecla som-1"><img src="./img/_(1).jpeg"></button>
-        <button class="tecla tecla som-1"><img src="./img/_.jpeg"></button>
-        <button class="tecla tecla som-1"><img src="./img/Brian moser.jpeg"></button>
-        <button class="tecla tecla som-1"><img src="./img/Carro em órbita 🌎.jpeg"></button>
-        <button class="tecla tecla som-1"><img src="./img/Dexter Morgan Icon.jpeg"></button>
-        <button class="tecla tecla som-1"><img src="./img/Dexter.jpeg"></button>
-        <button class="tecla tecla som-1"><img src="./img/ᡕᠵ᠊ᡃ࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘ 𐡏~♡.jpeg"></button>
-        <button class="tecla tecla som-1"><img src="./img/James doakes.jpeg"></button>
-        <button class="tecla tecla som-1"><img src="./img/Angel Batista - Dexter.jpeg"></button>
-        <button class="tecla tecla som-1"><img src="./img/eu imagino...jpeg"></button>
+        <!-- Cada botão contém uma imagem ilustrativa -->
+        <button class="tecla tecla_som1"><img src="img/Angel Batista - Dexter.jpeg" alt="Som 1"></button>
+        <button class="tecla tecla_som2"><img src="img/_ (1).jpeg" alt="Som 2"></button>
+        <button class="tecla tecla_som3"><img src="img/_.jpeg" alt="Som 3"></button>
+
+        <button class="tecla tecla_som4"><img src="img/Brian moser.jpeg" alt="Som 4"></button>
+        <button class="tecla tecla_som5"><img src="img/Carro em órbita 🌎.jpeg" alt="Som 5"></button>
+        <button class="tecla tecla_som6"><img src="img/Dexter Morgan Icon.jpeg" alt="Som 6"></button>
+
+        <button class="tecla tecla_som7"><img src="img/eu imagino...jpeg" alt="Som 7"></button>
+        <button class="tecla tecla_som8"><img src="img/James doakes.jpeg" alt="Som 8"></button>
+        <button class="tecla tecla_som9"><img src="img/ᡕᠵ᠊ᡃ࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘ 𐡏~♡.jpeg" alt="Som 9"></button>
     </section>
+
+    <!-- Áudios correspondentes aos botões -->
+    <audio src="./song/som1.mp3" id="som_tecla_som1"></audio>
+    <audio src="./song/som2.mp3" id="som_tecla_som2"></audio>
+    <audio src="./song/som3.mp3" id="som_tecla_som3"></audio>
+    <audio src="./song/som4.mp3" id="som_tecla_som4"></audio>
+    <audio src="./song/som5.mp3" id="som_tecla_som5"></audio>
+    <audio src="./song/som6.mp3" id="som_tecla_som6"></audio>
+    <audio src="./song/som7.mp3" id="som_tecla_som7"></audio>
+    <audio src="./song/som8.mp3" id="som_tecla_som8"></audio>
+    <audio src="./song/som9.mp3" id="som_tecla_som9"></audio>
+
+    <!-- Script principal -->
+    <script src="main.js"></script>
 </body>
 </html>
-  
-    
